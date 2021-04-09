@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="mod1">
+    <classes>
+     <class name="mod1.QT_color"/>
+     <class name="mod1.Qt_title"/>
+     <class name="mod1.Verification_and_login"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="mod2">
+  <classes>
+  <class name="mod2.Qt_title"/>
+  <class name="mod2.Test_activity"/>
+  </classes>
+  </test><!-- Test -->
+
+<test name="mod3">
+  <classes>
+  <class name="mod3.Confirmation_message"/>
+  <class name="mod3.Selectdeselectkudo"/>
+   <class name="mod3.SelectSinglekudo"/>
+   <class name="mod3.Sendkudos"/>
+   <class name="mod3.WithoutCitation"/>
+  
+  </classes>
+  </test><!-- Test -->
+
+ <test name="mod4">
+  <classes>
+  <class name="mod4.KudoSearch"/>
+  </classes>
+  </test><!-- Test -->
+  
+  <test name="mod5">
+  <classes>
+  <class name="mod5.SendKudosFromRecentContacts"/>
+  </classes>
+  </test><!-- Test -->
+  
+  <test name="mod6">
+  <classes>
+  <class name="mod6.Activity_option"/>
+  <class name="mod6.Kudocount"/>
+   <class name="mod6.KudosFromME"/>
+   <class name="mod6.KudosToMe"/>
+   <class name="mod6.KudosToMyself"/>
+  
+  </classes>
+  </test><!-- Test -->
+  
+  
+
+
+</suite> <!-- Suite -->

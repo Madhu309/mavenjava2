@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="mod3(failed)">
+    <classes>
+      <class name="mod3.Sendkudos">
+        <methods>
+          <include name="bsuite"/>
+          <include name="preCond"/>
+          <include name="sendkudos1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- mod3.Sendkudos -->
+    </classes>
+  </test> <!-- mod3(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,6 @@
+16:39:10.060 [main] INFO  Resources.base1 - successfully opened the app
+16:39:11.410 [main] INFO  Resources.base1 - successfully entered username and password
+16:39:19.258 [main] INFO  Resources.base1 - successfully opened the app
+16:39:25.002 [main] INFO  Resources.base1 - successfully entered username and password
+16:39:38.404 [main] INFO  Resources.base1 - successfully opened the app
+16:39:40.596 [AsyncHttpClient-1-7] DEBUG io.netty.buffer.PoolThreadCache - Freed 3 thread-local buffer(s) from thread: AsyncHttpClient-1-7
